@@ -14,7 +14,7 @@ recognition.onresult = function(event) {
     if (command.includes("google")) {
         window.open("https://www.google.com", "_blank");
     } else if (command.includes("whatsapp")) {
-        window.open("https://web.whatsapp.com", "_blank");
+        window.open("https://whatsapp.com", "_blank");
     } else if (command.includes("facebook")) {
         window.open("https://www.facebook.com", "_blank");
     } else if (command.includes("youtube")) {
